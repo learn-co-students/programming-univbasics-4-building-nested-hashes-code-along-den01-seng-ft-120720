@@ -10,7 +10,6 @@ describe "third_challenge" do
     expect(third_challenge[:montague][:matriarch].values).to eq(["Lady Montague", "54"])
     expect(third_challenge[:montague][:hero].values).to eq(["Romeo", "15", "alive"])
   end
-
   it "fills out the Capulet character role keys with the key/value pairs describing their attributes" do
     expect(third_challenge[:capulet][:patriarch].keys).to eq([:name, :age])
     expect(third_challenge[:capulet][:matriarch].keys).to eq([:name, :age])
